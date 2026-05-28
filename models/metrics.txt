@@ -1,0 +1,22 @@
+MODELO RANDOM FOREST - PREDICCIÓN DE RESULTADO ACADÉMICO
+===========================================================
+
+Accuracy: 0.7808
+F1 macro: 0.7050
+Recall macro: 0.6936
+
+Reporte de clasificación:
+              precision    recall  f1-score   support
+
+     Dropout       0.82      0.76      0.79       284
+    Enrolled       0.58      0.38      0.46       159
+    Graduate       0.80      0.94      0.86       442
+
+    accuracy                           0.78       885
+   macro avg       0.73      0.69      0.70       885
+weighted avg       0.77      0.78      0.77       885
+
+Matriz de confusión:
+[[216  27  41]
+ [ 36  61  62]
+ [ 10  18 414]]
